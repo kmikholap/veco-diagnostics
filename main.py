@@ -84,8 +84,8 @@ async def run_diagnostics(veco, token, edges, diag_name, parameters = None):
 
 
 async def main():
-    veco = "192.168.20.11"  
-    token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlblV1aWQiOiJiZmVjZGM2Ni1kYjM1LTQyNWItYmNkYi1iZTM5OWQzOTg3YjIiLCJleHAiOjE3NjM5MDA5OTAsInV1aWQiOiI4NWFkZjU5Yi0yNDgyLTQ4YmYtYTZjZi02YTFmYzFjMTdmNTYiLCJpYXQiOjE3MzIzNjQ5OTl9.gaWHDw4JVBgo2M_3T4kccvIfLxERggYmHvtCKuXBsEg" 
+    veco = "192.168.1.1"  
+    token = "eyJhbGciOiJIUzI1Nacsacacsvfwefeweg" 
     enterprise_id = 1  
 
     edges = await get_enterprise_edges(veco, token, enterprise_id)
